@@ -1,4 +1,4 @@
-# AAVE-V@2 Flash loan Demo
+# AAVE-V2 Flash loan Demo
 
 <sub>This project was created for learning purposes only. Not a production version</sub>
 
