@@ -18,8 +18,8 @@ const networkConfig = {
     busdToken: "0xb809b9B2dc5e93CB863176Ea2D565425B03c0540",
     daiToken: "0x73967c6a0904aA032C103b4104747E88c566B1A2",
     lendingPoolAddressesProvider: "0x5E52dEc931FFb32f609681B8438A51c675cc232d",
-    wethAmount: ethers.utils.parseEther("0.02"),
-    borrowAmount: ethers.utils.parseEther("20"),
+    wethAmount: ethers.utils.parseEther("0.05"),
+    borrowAmount: ethers.utils.parseEther("10"),
   },
 };
 

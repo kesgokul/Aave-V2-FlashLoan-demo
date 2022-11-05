@@ -9,14 +9,14 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
   //args lendingPoolAddressesProvider, BUSD address, borrow amount
   const lendingPoolAddressesProvider =
     networkConfig[chainId]["lendingPoolAddressesProvider"];
-  const busdToken = networkConfig[chainId]["daiToken"];
+  const daiToken = networkConfig[chainId]["daiToken"];
   const borrowAmount = networkConfig[chainId]["borrowAmount"];
 
   log("Deploying contract.....");
   await deploy("MyFlashLoan", {
     contract: "MyFlashLoan",
     from: deployer,
-    args: [lendingPoolAddressesProvider, busdToken, borrowAmount],
+    args: [lendingPoolAddressesProvider, daiToken, borrowAmount],
     log: true,
   });
 
